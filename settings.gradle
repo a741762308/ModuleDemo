@@ -1,0 +1,9 @@
+rootProject.name = "ModuleDemo"
+include ':app'
+include ':route:routeAnnotation'
+include ':route:routeApi'
+include ':route:routeApt'
+include ':baseMoudle'
+include ':foodModule'
+include ':takeoutModule'
+includeBuild("./plugin")

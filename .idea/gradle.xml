@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/plugin" name="Plugin">
+                <projects>
+                  <project path="$PROJECT_DIR$/plugin" />
+                  <project path="$PROJECT_DIR$/plugin/basePlugin" />
+                  <project path="$PROJECT_DIR$/plugin/routePlugin" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Android Studio java home" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/baseMoudle" />
+            <option value="$PROJECT_DIR$/foodModule" />
+            <option value="$PROJECT_DIR$/plugin" />
+            <option value="$PROJECT_DIR$/plugin/basePlugin" />
+            <option value="$PROJECT_DIR$/plugin/routePlugin" />
+            <option value="$PROJECT_DIR$/route" />
+            <option value="$PROJECT_DIR$/route/routeAnnotation" />
+            <option value="$PROJECT_DIR$/route/routeApi" />
+            <option value="$PROJECT_DIR$/route/routeApt" />
+            <option value="$PROJECT_DIR$/takeoutModule" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.8">
+      <module name="ModuleDemo.app" target="11" />
+      <module name="ModuleDemo.baseMoudle" target="11" />
+      <module name="ModuleDemo.foodModule" target="11" />
+      <module name="ModuleDemo.route.route" target="11" />
+      <module name="ModuleDemo.route.routeApi" target="11" />
+      <module name="ModuleDemo.takeoutModule" target="11" />
+      <module name="Plugin.basePlugin" target="11" />
+      <module name="Plugin.routePlugin" target="11" />
+      <module name="Route.routeAnnotation" target="1.8" />
+      <module name="Route.routeApt" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
